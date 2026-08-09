@@ -7,7 +7,7 @@ export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(JSON.parse(localStorage.getItem('user')) || null);
   const [loading, setLoading] = useState(true);
 
-  const API_URL = 'http://localhost:8000/api'; // django local server
+  const API_URL = 'https://shop-inventory-3d33-eight.vercel.app/api'; // django local server
 
   useEffect(() => {
     if (token) {
