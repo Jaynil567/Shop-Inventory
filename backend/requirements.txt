@@ -1,7 +1,0 @@
-Django
-djangorestframework
-django-cors-headers
-PyJWT
-python-barcode
-Pillow
-psycopg2-binary
